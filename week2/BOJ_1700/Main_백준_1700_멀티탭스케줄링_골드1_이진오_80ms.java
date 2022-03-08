@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 /**
- * Main_백준_1700_멀티탭스케줄링_골드1_80ms
+ * Main_백준_1700_멀티탭스케줄링_골드1_이진오_80ms
  * 
  *  - 아이디어
  *    (1) 그리디

@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
  *      : int[] schedules - 사용할 전자기기의 index를 순서대로 저장할 배열
  *      : Electronic[] electronics - 전자기기의 상태를 저장할 배열
  *      : Electronic[] multiTab - 멀티탭에 꽂힌 전자기기를 저장할 배열
- * 
+ *      : Hmm...
  */
 public class Main_백준_1700_멀티탭스케줄링_골드1_80ms {
 	

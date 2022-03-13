@@ -33,4 +33,5 @@
 
 ---
 ## JSP & SERVLET
-https://docs.google.com/spreadsheets/d/1TUYtn2yM_kI2BIFAGOfjZp0W-4_-ZdjAnYQP6zC7lXg/edit#gid=0
+강의 : https://youtu.be/drCj2k50j_k
+기록 : https://docs.google.com/spreadsheets/d/1TUYtn2yM_kI2BIFAGOfjZp0W-4_-ZdjAnYQP6zC7lXg/edit#gid=0

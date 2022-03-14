@@ -33,5 +33,5 @@
 
 ---
 ## JSP & SERVLET
-- 강의 : https://youtu.be/drCj2k50j_k
+- 강의 : https://www.youtube.com/watch?v=drCj2k50j_k&list=PLq8wAnVUcTFVOtENMsujSgtv2TOsMy8zd
 - 기록 : https://docs.google.com/spreadsheets/d/1TUYtn2yM_kI2BIFAGOfjZp0W-4_-ZdjAnYQP6zC7lXg/edit#gid=0

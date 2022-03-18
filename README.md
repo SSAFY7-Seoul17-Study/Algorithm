@@ -32,6 +32,7 @@
   - 다음 회차 문제 선정
 
 ---
-## JSP & SERVLET
-- 강의 : https://www.youtube.com/watch?v=drCj2k50j_k&list=PLq8wAnVUcTFVOtENMsujSgtv2TOsMy8zd
+## 강의
 - 기록 : https://docs.google.com/spreadsheets/d/1TUYtn2yM_kI2BIFAGOfjZp0W-4_-ZdjAnYQP6zC7lXg/edit#gid=0
+- JSP & SERVLET : https://www.youtube.com/watch?v=drCj2k50j_k&list=PLq8wAnVUcTFVOtENMsujSgtv2TOsMy8zd
+- JDBC : https://www.youtube.com/watch?v=c0s7g7iVtwc&list=PLq8wAnVUcTFWxwoc41CqmwnO-ZyRDL0og

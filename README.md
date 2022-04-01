@@ -35,5 +35,7 @@
 ## 강의
 - 기록 : https://docs.google.com/spreadsheets/d/1TUYtn2yM_kI2BIFAGOfjZp0W-4_-ZdjAnYQP6zC7lXg/edit#gid=0
 
-- SERVLET& JSP : https://www.youtube.com/watch?v=drCj2k50j_k&list=PLq8wAnVUcTFVOtENMsujSgtv2TOsMy8zd
+- Spring 입문 - 인프런 : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8
+- Spring - 뉴렉쳐 : https://www.youtube.com/watch?v=XtXHIDnzS9c&list=PLq8wAnVUcTFWxnsrMu5kS_jt_o8gpEiTR
 - JDBC : https://www.youtube.com/watch?v=c0s7g7iVtwc&list=PLq8wAnVUcTFWxwoc41CqmwnO-ZyRDL0og
+- SERVLET& JSP : https://www.youtube.com/watch?v=drCj2k50j_k&list=PLq8wAnVUcTFVOtENMsujSgtv2TOsMy8zd

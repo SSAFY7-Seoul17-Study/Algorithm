@@ -135,5 +135,5 @@ public class Main_백준_4195_친구네트워크_골드2_이진오_520ms {
 		System.out.print(out.toString());
 		
 	} // end of main
-	s
+
 } // end of class

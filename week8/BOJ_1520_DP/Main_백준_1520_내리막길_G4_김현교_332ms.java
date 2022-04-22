@@ -99,7 +99,5 @@ public class Main_백준_1520_내리막길_G4_김현교_332ms {
 		}
 	}
 }//end class
-/*
- * 
- * */
+
  

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class Main_백준_1504_특정한최단경로_G4_김현교_644ms {
+public class Main_백준_1504_특정한최단경로_G4_김현교_528ms {
 
 	private static boolean[] v;
 	private static int[] dists;
@@ -46,11 +46,11 @@ public class Main_백준_1504_특정한최단경로_G4_김현교_644ms {
 		dists = new int[N + 1];
 		pq = new PriorityQueue<>();
 		
-		int res1 = dijkstra(1, v1) + dijkstra(v1, v2) + dijkstra(v2, N);
-		int res2 = dijkstra(1, v2) + dijkstra(v2, v1) + dijkstra(v1, N);
-		int res = Math.min(res1, res2);
+		int betweenDist = dijkstra(v1, v2);
+		int res = Math.min(dijkstra(1, v1) + dijkstra(v2, N),
+				dijkstra(1, v2) + dijkstra(v1, N)) + betweenDist;
 		
-		System.out.println(res >= INF ? -1 : res);
+		System.out.println(res);
 	}//end main
 	
 	private static int dijkstra(int start, int end) {
@@ -64,6 +64,7 @@ public class Main_백준_1504_특정한최단경로_G4_김현교_644ms {
 			
 			if (v[cur.no]) continue;
 			v[cur.no] = true;
+			if (cur.no == end) break;
 			
 			for (Node next : list.get(cur.no)) {
 				if (!v[next.no] && dists[next.no] > dists[cur.no] + next.dist) {
@@ -72,7 +73,11 @@ public class Main_백준_1504_특정한최단경로_G4_김현교_644ms {
 				}
 			}
 		}
-		
+		if (dists[end] >= INF) {
+			System.out.println(-1);
+			System.exit(0);
+		}
+		pq.clear();
 		return dists[end];
 	}
 

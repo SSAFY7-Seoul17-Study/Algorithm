@@ -41,6 +41,17 @@ public class Main_백준_20055_컨베이어벨트위의로봇_골드5_이진오_
 		}
 	}
 	
+	/**
+	 * 컨베이어 벨트 객체
+	 *   - Square[] belt: 각 칸의 배열
+	 *   - N, K: 문제에서 제시된 벨트의 크기, 가능한 내구도
+	 *   - cntNotLoadables: 내구도가 바닥난 컨베이어 벨트의 칸
+	 *   
+	 *   - init(BufferedReader): 벨트 초기화
+	 *   - rotate(): 벨트를 한 칸씩 회전
+	 *   - moveRobots(): 벨트에 있는 로봇을 한 칸씩 앞으로 이동
+	 *   - startUp(): 벨트 가동을 시작
+	 */
 	static class Conveyor {
 		Square[] belt;
 		int N, K;
